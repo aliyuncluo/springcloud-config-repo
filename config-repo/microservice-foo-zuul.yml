@@ -2,4 +2,10 @@ zuul:
   routes:
     routeTest:
       path: /routeTest
-      url: http://www.sina.com
+      url: https://www.hao123.com
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
