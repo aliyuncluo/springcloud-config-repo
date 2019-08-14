@@ -1,8 +1,8 @@
 zuul:
   routes:
     routeTest:
-      path: /routeTest
-      url: https://www.hao123.com
+      path: /routeTest/**
+      serviceId: config-client
 spring:
   rabbitmq:
     host: localhost
