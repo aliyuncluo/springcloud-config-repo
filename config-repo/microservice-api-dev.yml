@@ -4,3 +4,8 @@ spring:
     url: jdbc:mysql://192.168.0.195:3306/test?characterEncoding=utf-8
     username: root
     password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
